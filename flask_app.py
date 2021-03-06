@@ -9,3 +9,6 @@ app = Flask(__name__)
 def hello_world():
     return 'This is somebullshit my boy!'
 
+@app.route('/webo')
+def webo():
+    return 'Hope this works in my mind'
